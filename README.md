@@ -1,11 +1,11 @@
-# 1. Conectar tu repositorio local con GitHub (ESTE ESTÁ BIEN)
+# 1. Conectar tu repositorio local con GitHub
 git remote add origin https://github.com/Juniorwell824/cuentas-seguras.git
 
-# 2. CORREGIR: Cambiar a la rama main (usa -M mayúscula)
+# 2. Cambiar a la rama main
 git branch -M main
 
-# 3. Hacer pull primero (CORREGIR los guiones)
+# 3. Hacer pull primero (CORREGIDO - usa dos guiones y sin espacios)
 git pull origin main --allow-unrelated-histories
 
-# 4. Hacer push de tu código (ESTE ESTÁ BIEN)
+# 4. Hacer push de tu código
 git push -u origin main
